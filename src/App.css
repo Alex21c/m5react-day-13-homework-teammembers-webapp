@@ -20,4 +20,22 @@ html{
   font-family: "Roboto", sans-serif;
 }
 
+body{
+  background-color: #343d3f;
 
+}
+
+
+.scrollbar-blue::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scrollbar-blue::-webkit-scrollbar-track {
+  background-color: #343d3f; /* or any color you desire */
+}
+
+.scrollbar-blue::-webkit-scrollbar-thumb {
+  background-color: #fde047; /* change this to the color you want */
+  border-radius: 5px;
+  border: 1px solid #343d3f; /* or any color you desire */
+}
