@@ -40,7 +40,7 @@ function App() {
   // useEffect(()=>{//console.log(stateTeammembersWebApp)}, [stateTeammembersWebApp]);
   // //console.log(DB_EMPLOYEES)
   return (
-    <div id='wrapperWebApp' className='mt-[.5rem] pt-[1rem] p-[2rem] w-[70rem]   rounded-md  text-[1.2rem] text-slate-200 flex gap-[1rem]  justify-center'>
+    <div id='wrapperWebApp' className='mt-[.5rem] pt-[1rem] p-[2rem] w-[70rem]   rounded-md  text-[1.2rem] text-slate-200 flex gap-[1rem]  justify-center  m-auto'>
       <Employees stateTeammembersWebApp={stateTeammembersWebApp} dispatch={dispatch}/>
       <Team stateTeammembersWebApp={stateTeammembersWebApp} dispatch={dispatch}/>
     </div>
